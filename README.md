@@ -2,6 +2,9 @@
 
 MitosSim is a parametric framework that can be used to create realistically looking mitotic figures in H&E tissue. The framework first creates a 3D model of the chromatids in mitosis, then projects this model into 2D space creating a mask, and finally transforms the mask into a tissue context in H&E.
 
+
+<img width="1280" height="527" alt="Figure1" src="https://github.com/user-attachments/assets/299b3243-03b0-46cc-a691-6ce67c1f0ada" />
+
 ## Data
 
 We use the Ami-Br dataset (Bertram et al., Proc. BVM 2025) for all experiments and for training the context encoder GAN model. Furthermore, we use chromosome masks generated from the Ami-Br context images themselves as the context-encoder GAN's training targets.
